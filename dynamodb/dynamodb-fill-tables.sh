@@ -18,3 +18,5 @@ aws dynamodb batch-write-item --request-items file://Forum.json
 aws dynamodb batch-write-item --request-items file://Thread.json
 
 aws dynamodb batch-write-item --request-items file://Reply.json
+
+aws dynamodb query --table-name Forum --key-conditions file://key-conditions-forum.json
