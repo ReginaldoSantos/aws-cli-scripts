@@ -1,0 +1,10 @@
+{
+    "Name": {
+        "AttributeValueList": [
+            {   
+                "S":"Amazon S3"
+            }   
+        ],  
+        "ComparisonOperator": "EQ"
+    }
+}
