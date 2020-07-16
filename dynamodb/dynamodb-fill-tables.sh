@@ -19,6 +19,8 @@ aws dynamodb batch-write-item --request-items file://Thread.json
 
 aws dynamodb batch-write-item --request-items file://Reply.json
 
+# Scan table Forum: get all items
+aws dynamodb scan --table-name Forum
 
 # Query with key (HASH: mandatory for query) and comparison operator
 aws dynamodb query --table-name Forum --key-conditions file://key-conditions-forum.json
