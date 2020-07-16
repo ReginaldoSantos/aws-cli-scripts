@@ -1,0 +1,18 @@
+{
+    "ForumName": {
+        "AttributeValueList": [
+            {   
+                "S":"Amazon S3"
+            }   
+        ],  
+        "ComparisonOperator": "EQ"
+    },
+    "Subject": {
+        "AttributeValueList": [
+            {   
+                "S":"S3 Thread 1"
+            }   
+        ],  
+        "ComparisonOperator": "EQ"
+    }
+}
