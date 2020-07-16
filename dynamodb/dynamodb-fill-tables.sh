@@ -19,4 +19,9 @@ aws dynamodb batch-write-item --request-items file://Thread.json
 
 aws dynamodb batch-write-item --request-items file://Reply.json
 
+
+# Query with key (HASH: mandatory for query) and comparison operator
 aws dynamodb query --table-name Forum --key-conditions file://key-conditions-forum.json
+
+# Query with key (HASH: mandatory for query), RANGE and comparison operator
+aws dynamodb query --table-name Thread --key-conditions file://key-conditions-thread.json
